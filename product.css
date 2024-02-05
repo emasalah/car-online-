@@ -1,0 +1,32 @@
+div{
+    display: flex;
+    color: rgb(247, 48, 8);
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.child{
+display: block;
+
+}
+
+.child p.dis{
+    color: black;
+    margin-right: 40px;
+}
+
+#addToCartBtn {
+    padding: 20px 20px;
+    margin-left: 550px;
+    margin-top: 30px;
+    background-color: #db3434;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#addToCartBtn:hover {
+    background-color: #79e1f9;
+}

@@ -1,0 +1,47 @@
+/* في ملف style.css أو أي مكان آخر تستخدمينه لتخزين أنماط CSS */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin-top: 150px;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#cart-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#cart-table th, #cart-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#cart-table th {
+    background-color: #f2f2f2;
+}
+
+#buyButton {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#buyButton:hover {
+    background-color: #45a049;
+}
